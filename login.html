@@ -2,30 +2,27 @@
   <head>
     <title>Example Login Page</title>
     <link rel="stylesheet" type="text/css" href="./login.css" />
-    <style>
-      label {
-        width: 70px;
-        display: inline-block;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./main.css" />
   </head>
   <body>
-    <div style="margin-bottom: 10px">
-      Welcome to my <span style="font-weight: bold; text-decoration: underline;">login page</span>, please login below.
-    </div>
-  
-    <div>
-      <label style="width: 80px; display: inline-block;">Username:</label> 
-      <input type="text"/>
-    </div>
+    <div class="container">
+      <div style="margin-bottom: 10px">
+        Welcome to my <span style="font-weight: bold; text-decoration: underline;">login page</span>, please login below.
+      </div>
     
-    <div class="div-pad">
-      <label>Password:</label> <input type="password"/>
-    </div>
-    
-    <div class="div-pad">
-      <input id="clear-form" type="button" value="Clear Form"/>
-      <input id="submit" type="button" value="Submit"/>
+      <div>
+        <label>Username:</label> 
+        <input type="text"/>
+      </div>
+      
+      <div class="div-pad">
+        <label>Password:</label> <input type="password"/>
+      </div>
+      
+      <div class="div-pad">
+        <input id="clear-form" type="button" value="Clear Form"/>
+        <input id="submit" type="button" value="Submit"/>
+      </div>
     </div>
   </body>
 </html>
