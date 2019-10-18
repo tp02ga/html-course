@@ -14,3 +14,20 @@ label {
 #submit {
   background-color: #6666FF;
 }
+
+input[type='button'] {
+  padding: 5px;
+}
+
+/* select all inputs that have a value which contains the letter 'm' */
+/*
+input[value*='m'] {
+  padding: 5px;
+}
+/* select all inputs that have a value that starts with the capital letter 'C' */
+/*
+input[value^='C'] {
+  padding: 5px;
+}
+*/
+
