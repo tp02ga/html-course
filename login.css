@@ -2,3 +2,7 @@ label {
   width: 60px;
   display: block !important;
 }
+
+div {
+  margin-top: 10px;
+}
