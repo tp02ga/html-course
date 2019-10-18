@@ -3,6 +3,14 @@ label {
   display: block !important;
 }
 
-div {
+.div-pad {
   margin-top: 10px;
+}
+
+#clear-form {
+  background-color: yellow;
+}
+
+#submit {
+  background-color: #6666FF;
 }
