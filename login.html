@@ -11,20 +11,23 @@
       <div style="margin: 10px 0px">
         Welcome to my <span style="font-weight: bold; text-decoration: underline;">login page</span>, please login below.
       </div>
-    
-      <div>
-        <label>Username:</label> 
-        <input type="text"/>
-      </div>
       
-      <div class="div-pad">
-        <label>Password:</label> <input type="password"/>
-      </div>
-      
-      <div class="div-pad">
-        <input id="clear-form" type="button" value="Clear Form"/>
-        <input id="submit" type="button" value="Submit"/>
-      </div>
+      <form method="get" action="./dashboard.html">
+        <div>
+          <label>Username:</label> 
+          <input id="username" name="username" type="text"/>
+        </div>
+        
+        <div class="div-pad">
+          <label>Password:</label> 
+          <input id="password" name="password" type="password"/>
+        </div>
+        
+        <div class="div-pad">
+          <input id="clear-form" type="button" value="Clear Form"/>
+          <input id="submit" type="submit" value="Submit"/>
+        </div>
+      </form>
     </div>
   </body>
 </html>
