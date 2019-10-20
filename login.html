@@ -14,13 +14,19 @@
       
       <form method="get" action="./dashboard.html">
         <div>
-          <label>Username:</label> 
+          <label for="username">Username:</label> 
           <input id="username" name="username" type="text"/>
         </div>
         
         <div class="div-pad">
-          <label>Password:</label> 
+          <label for="password">Password:</label> 
           <input id="password" name="password" type="password"/>
+        </div>
+        
+        <div class="div-pad">
+          <div>Are you a robot?</div>
+          <input type="radio" name="robotGroup" id="robotGroup1" value="yes" /><label for="robotGroup1">Yes</label>
+          <input type="radio" name="robotGroup" id="robotGroup2" value="no" /><label for="robotGroup2">No</label>
         </div>
         
         <div class="div-pad">
