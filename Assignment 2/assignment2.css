@@ -1,0 +1,77 @@
+body {
+	background-color: RGB(73, 18, 246);
+	font-family: Arial;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input[type='button'] {
+	border: 0px;
+	border-radius: 25px;
+	color: white;
+	font-weight: bold;
+	padding: 10px 25px;
+	background: linear-gradient(to right, RGB(234, 158, 61) , RGB(238, 125, 56));
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30PX;
+	font-weight: normal;
+}
+
+.container {
+	margin-left: 20px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.section-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.copy-1 {
+	flex: 0 0 450px;
+	color: RGB(201, 184, 252);
+	z-index: 1;
+    margin-right: -69px;
+    margin-top: 45px;
+}
+
+.picture-1 {
+	flex: 0 1 900px;
+	z-index: 0;
+}
+
+.section-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0px;
+}
+
+.patented-tech {
+	flex: 0 1 500px;
+	margin-right: 50px;
+}
+
+.brain-and-behavior {
+	flex: 0 1 400px;
+}
